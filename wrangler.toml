@@ -1,0 +1,7 @@
+name = "flare-react"
+main = "src/index.ts"
+compatibility_date = "2024-03-28"
+[[d1_databases]]
+binding = "DB" # available in your Worker on env.DB
+database_name = "d1t"
+database_id = "2e7e5918-746d-4b0a-b791-eef1db485160"

@@ -1,6 +1,11 @@
 // GET requests to /filename would return "Hello, world!"
 export const onRequestGet = () => {
-    return new Response("Hello, world!")
+    const today = new Date(); 
+    const month = today.getMonth()+1;
+    const year = today.getFullYear();
+    const date = today. getDate();
+    const currentDate = month + "/" + date + "/" + year;
+    return new Response("Hello, Ping! Now is " + currentDate);
   }
   
   // POST requests to /filename with a JSON-encoded body would return "Hello, <name>!"
