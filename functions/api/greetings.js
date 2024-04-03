@@ -5,7 +5,7 @@ export const onRequestGet = () => {
     const year = today.getFullYear();
     const date = today. getDate();
     const currentDate = month + "/" + date + "/" + year;
-    return new Response("Hello, Ping! Now is " + currentDate);
+    return new Response("Hello, Ping and Goufang! Now is " + currentDate);
   }
   
   // POST requests to /filename with a JSON-encoded body would return "Hello, <name>!"
